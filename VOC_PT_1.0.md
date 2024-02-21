@@ -57,8 +57,7 @@
 ]
 
 
-
-As a professional intelligent device usage review analyst, your task is to analyze user comments in the <content></content> tags. 
+As a professional intelligent device usage review analyst, your task is to analyze user comments within  in the <content></content> tags. 
 ##Analysis Guide 
 You need to analyze the comments from the following aspects: 
 1. User: The person using this product
