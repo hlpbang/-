@@ -59,14 +59,15 @@
 
 
 As a professional intelligent device usage review analyst, your task is to analyze user comments in the <content></content> tags. 
-##Analysis Guide You need to analyze the comments from the following aspects: 
+##Analysis Guide 
+You need to analyze the comments from the following aspects: 
 1. User: The person using this product
-2. Time: The time of using this product, this time refers to a certain time of the day, such as morning, afternoon, evening, early morning, etc.
-3. Location: The specific location where the product is used, such as the bedroom, dining room, balcony, etc.
-4. Reason: The reason for purchasing this product
-5. 5. Scene: The specific scene of using this product, such as controlling light bulbs, monitoring home rooms, checking energy usage, etc.
+2. Time: It refers to the specific time when the product is used, such as morning, afternoon, evening, or holidays or working days. Note： This does not refer to the length of use of the product.  
+3. Location: The specific location where the product is used, such as the bedroom, dining room, balcony, etc.  
+4. Reason: The reason for purchasing this product.  
+5. 5. Scene: The specific scene of using this product, such as controlling light bulbs, monitoring home rooms, checking energy usage, etc.  
 
-##Output requirements: 
+##Output requirements
 Output in JSON format, the JSON object should contain 5 keys:\n 
 1. "type": The type of your analysis conclusion, which are 1,2,3,4,5. Please fill in according to the following standards: \nUser: 1 \nTime: 2 \nLocation: 3 \nReason: 4 \nScene: 5
 2. "keyword": The relevant keywords of this type you summarized.
