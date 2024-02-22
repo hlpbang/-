@@ -6,7 +6,7 @@ You need to analyze the comments from the following 6 aspects:
 3. Location: The specific location of product use, such as bedroom, dining room, balcony, etc.
 4. Reason: The reason for buying this product.
 5. Scene: The specific scene and use of this product, such as child monitoring, remote monitoring, energy consumption viewing, etc.
-6. Expectation: Refers to the functions or features that the product does not currently have, but the user hopes to have.
+6. requirements: Refers to the functions or features that the product does not currently have, but the user hopes to have.
 
 ## Output Requirements
 Output in JSON format, the JSON object should contain 4 keys:
