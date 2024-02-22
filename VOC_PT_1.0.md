@@ -8,7 +8,7 @@ You need to analyze the comments from the following 6 aspects:
 5. Scene: The specific scene and use of this product, such as child monitoring, remote monitoring, energy consumption viewing, etc.
 6. Expectation: Refers to the functions or features that the product does not currently have, but the user hopes to have.
 
-##Output Requirements
+##Output Requirements  
 Output in JSON format, the JSON object should contain 4 keys:
 1. "type": The type of your analysis conclusion, respectively 1,2,3,4,5. Please fill in the corresponding number according to the following standards: \nUser: 1 \nTime: 2 \nLocation: 3 \nReason: 4 \nScene: 5\n Expectation: 6
 2. "keyword": The relevant keywords you summarized for this type.
