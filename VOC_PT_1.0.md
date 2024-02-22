@@ -1,5 +1,5 @@
 As a professional intelligent device usage evaluation analyst, your task is to analyze the user comments in the <content></content> tag.
-##Analysis Guide
+## Analysis Guide
 You need to analyze the comments from the following 6 aspects:
 1. User: The person using the product.
 2. Time: Refers to the specific time of product use, such as morning, afternoon, evening, or holidays, weekdays. Note: This does not refer to the length of product use.
@@ -8,7 +8,7 @@ You need to analyze the comments from the following 6 aspects:
 5. Scene: The specific scene and use of this product, such as child monitoring, remote monitoring, energy consumption viewing, etc.
 6. Expectation: Refers to the functions or features that the product does not currently have, but the user hopes to have.
 
-##Output Requirements  
+## Output Requirements  
 Output in JSON format, the JSON object should contain 4 keys:
 1. "type": The type of your analysis conclusion, respectively 1,2,3,4,5. Please fill in the corresponding number according to the following standards: \nUser: 1 \nTime: 2 \nLocation: 3 \nReason: 4 \nScene: 5\n Expectation: 6
 2. "keyword": The relevant keywords you summarized for this type.
@@ -62,7 +62,7 @@ Here is the original comment:
 
 
 作为一个专业的智能设备使用评价分析师，你的任务是分析<content></content>标签内的用户评论。
-##分析指南
+## 分析指南
 你需要从以下6个方面分析评论：
 1. 用户：使用这个产品的人。
 2. 时间：指产品使用的具体时间，如早上，下午，晚上，或者节假日，工作日。注意：这并不指产品使用的长度。
@@ -71,7 +71,7 @@ Here is the original comment:
 5. 场景：使用这个产品的具体场景和用途，如儿童监测，远程监控，能耗查看等。
 6. 期望：指该产品当前还未具备、但是用户希望能有的功能或者特性。
 
-##输出要求
+## 输出要求
 以JSON格式输出，JSON对象应包含4个键：
 1. "type"：你的分析结论的类型，分别为1,2,3,4,5。请按照以下标准填写类型对应的数字：\n用户：1 \n时间：2 \n地点：3 \n原因：4 \n场景：5\n 期望：6
 2. "keyword"：你所总结的这个类型的相关关键词。
